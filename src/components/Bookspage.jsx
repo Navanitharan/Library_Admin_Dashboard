@@ -3,10 +3,10 @@ import { useContext, useEffect } from 'react'
 import Bookscard from './Books_components/Bookscard'
 import Topbar from "./Books_components/Topbar"
 import { DataContext } from '../App'
-import axios from 'axios'
+
 const Bookspage = () => {
 
-  const{books,setBooks,getData,deletData} = useContext(DataContext)
+  const{books,getData,deletData} = useContext(DataContext)
   
   
 

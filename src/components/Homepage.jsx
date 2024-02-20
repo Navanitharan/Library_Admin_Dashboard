@@ -30,7 +30,7 @@ const Homepage = () => {
 
   return (
    <>
-    <div style={{boxSizing:"border-box",marginLeft:"1rem"}} className="row p-3 d-flex g-0 justify-content-between bg-success">
+    <div style={{boxSizing:"border-box",marginLeft:"1rem"}} className="row d-block d-lg-flex justify-content-center p-3 justify-content-between">
     {
         availableBooksDetails.map((details,index)=>{
             return <AvailableBooks key={index} details={details} />

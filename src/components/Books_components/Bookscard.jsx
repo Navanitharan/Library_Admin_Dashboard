@@ -10,9 +10,9 @@ const Bookscard = ({ data}) => {
   
 
   return (
-    <div className="p-3 bg-success">
-      <div className="d-lg-flex gap-4">
-        <div style={{ border: "1 px solid black" }} className="img">
+    <div className="p-3">
+      <div style={{ border: "1px solid black" }} className="d-lg-flex gap-4">
+        <div style={{ border: "1px solid black" }} className="img">
           <img
             width={"300px"}
             src="https://www.shutterstock.com/shutterstock/photos/309654902/display_1500/stock-photo-swindon-uk-august-minecraft-game-books-on-a-white-background-minecrafe-was-developed-309654902.jpg"
